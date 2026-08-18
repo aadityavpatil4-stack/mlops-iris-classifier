@@ -8,7 +8,7 @@ Inside Nano:
 You'll see:
 
 ```text
-File Name to Write: README.md# # mlops-iris-classifier — Version A
+# mlops-iris-classifier — Version A + B (resolved)
 
 A sample ML project used to demonstrate Git-based version control
 workflows in an MLOps context.
