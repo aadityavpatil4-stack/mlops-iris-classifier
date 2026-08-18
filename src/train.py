@@ -21,7 +21,7 @@ def load_data():
     )
 
 
-def train_model(X_train, y_train, n_estimators=100, max_depth=None):
+def train_model(X_train, y_train, n_estimators=150, max_depth=None):
     model = RandomForestClassifier(
         n_estimators=n_estimators,
         max_depth=max_depth,
@@ -40,7 +40,7 @@ def evaluate_model(model, X_test, y_test):
 
 def main():
     X_train, X_test, y_train, y_test = load_data()
-    model = train_model(X_train, y_train)
+    model = train_model(X_train, y_train,n_estimators=150)
     acc, report = evaluate_model(model, X_test, y_test)
 
     print(f"Accuracy: {acc:.4f}")
