@@ -1,20 +1,65 @@
+# MLOps Iris Classifier
 
-### 3. Save it
+A sample Machine Learning project demonstrating Git-based version control and MLOps workflow practices using an Iris classification model.
 
-Inside Nano:
+This project was developed as part of **MLOps Laboratory – Experiment 2: Git Installation, Configuration, and Version Control Workflow for ML Projects**.
 
-**Press `Ctrl + O`**
+---
 
-You'll see:
+## 🎯 Aim
+
+To implement Git-based version control for a Machine Learning project, including repository creation, branching, merging, GitHub collaboration, Pull Requests, merge conflict resolution, clean version history, and documentation.
+
+---
+
+## 📌 Project Overview
+
+This project implements an Iris flower classification model using Python and Scikit-learn.
+
+The project demonstrates:
+
+- Git repository initialization
+- Git configuration
+- Meaningful commits
+- Branching and merging
+- Feature development
+- GitHub collaboration
+- Pull Requests
+- Merge conflict creation and resolution
+- Version-control documentation
+- ML model execution and verification
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+- Scikit-learn
+- Pandas
+- NumPy
+- Joblib
+- Git
+- GitHub
+- VS Code
+
+---
+
+## 📁 Project Structure
 
 ```text
-File Name to Write: README.md# MLOps Iris Classifier
-
-A sample ML project used to demonstrate Git-based version control
-workflows in an MLOps context.
-
-## Setup
-
-```bash
-pip install -r requirements.txt
-python src/train.py
+mlops-iris-classifier/
+│
+├── src/
+│   ├── __init__.py
+│   └── train.py
+│
+├── data/
+│
+├── models/
+│
+├── docs/
+│   └── VERSION_CONTROL_WORKFLOW.md
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
