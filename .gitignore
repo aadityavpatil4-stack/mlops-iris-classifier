@@ -22,3 +22,7 @@ mlruns/
 .vscode/
 .idea/
 
+
+# Local environment and macOS
+.venv-feast/
+.DS_Store
