@@ -14,6 +14,6 @@ The `model-quality-gate` job runs after `test-suite`. It prepares the same Iris 
 
 ## Verification status
 
-The local Practical 8 suite passed: 20 tests passed. GitHub Actions run `40475682629` failed at lint because it used the initial lint settings. A follow-up commit added the specific ignores described above. The follow-up run and its final result should be checked in the repository's Actions tab.
+The local Practical 8 suite passed: 20 tests passed. GitHub Actions run `40475682629` failed at lint because it used the initial lint settings. A follow-up commit added the specific ignores described above. GitHub Actions run `40475811550` passed all three jobs: build/lint, test-suite, and model-quality-gate.
 
 Branch protection requiring the three job checks and a pull request has not been verified as configured. The deliberate model-regression pull request from the practical has not been run as part of this setup. Configure and verify those GitHub settings before claiming that merges are blocked by CI or that regression blocking has been demonstrated.
