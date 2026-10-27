@@ -76,9 +76,8 @@ def preprocess(
     )
 
     # Remove collection metadata
-    df.drop(
+    df = df.drop(
         columns=["collected_at"],
-        inplace=True,
         errors="ignore"
     )
 
